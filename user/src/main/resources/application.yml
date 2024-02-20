@@ -1,0 +1,11 @@
+server:
+  port: 8020
+  
+spring:
+  application:
+    name: user
+
+management:
+  tracing:
+    sampling:
+      probability: 1.0
